@@ -1,0 +1,216 @@
+:root {
+    --h2-color: #2c2c2c;
+    --text-color: #b0b3b6;
+    --atag: #ff5249;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* SET UP */
+
+.spacing {
+    margin-bottom: 100px;
+}
+
+.spacing2 {
+    margin-bottom: 200px;
+}
+
+.spacing3 {
+    margin-bottom: 300px;
+}
+
+#iz {
+    color: #ff5249;
+}
+
+.navbar-brand {
+    font-family: Playfair Display;
+    color: #6c6c6c;
+    font-size: 45px;
+}
+
+.navbar-custom {
+    background-color: #e5e5e5;
+}
+
+
+/* change the link color */
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #6c6c6c;
+    line-height: 11px;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+}
+
+
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ff5249;
+    border-bottom: 1px solid #ff5249;
+    border-width: 60%;
+}
+
+
+/* the THREE PHOTO AT THE HEAD */
+
+.dev-img {
+    position: relative;
+    margin-bottom: 16rem;
+}
+
+.dev-img1 {
+    position: relative;
+    z-index: 4;
+    width: 17rem;
+}
+
+.dev-img2 {
+    position: absolute;
+    z-index: 4;
+    width: 16rem;
+    height: 25rem;
+    top: 2rem;
+}
+
+.dev-img3 {
+    position: absolute;
+    z-index: 10;
+    width: 20rem;
+    top: 16rem;
+    left: 8rem;
+}
+
+.dev-img h1 {
+    font-weight: bold;
+    color: var(--h2-color);
+    font-size: 3rem;
+}
+
+.dev-img .imgc {
+    position: relative;
+    z-index: 16;
+    left: 6rem;
+    top: 3rem;
+}
+
+#start {
+    padding: 0.6rem 1rem;
+    margin-top: 4rem;
+    background: var(--atag);
+    display: inline-block;
+    width: 7rem;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 1.3rem;
+}
+
+.left {
+    position: absolute;
+    font-size: 2rem;
+    background-color: #ff5249;
+    z-index: 20;
+    top: 22rem;
+    left: 1rem;
+}
+
+.right {
+    position: absolute;
+    font-size: 2rem;
+    background-color: #ff5;
+    z-index: 20;
+    top: 22rem;
+    right: 1.5rem;
+}
+
+
+/* END OF HEADER CUSTOMIZATION */
+
+.p {
+    padding-top: 4rem;
+}
+
+.one {
+    margin-top: 4rem;
+    background: url(./img/01.png) no-repeat;
+    background-position: center;
+}
+
+.two {
+    margin-top: 4rem;
+    background: url(./img/02.png) no-repeat;
+    background-position: left;
+}
+
+.three {
+    margin-top: 4rem;
+    background: url(./img/03.png) no-repeat;
+    background-position: center;
+}
+
+.four {
+    margin-top: 4rem;
+    background: url(./img/04.png) no-repeat;
+    background-position: left;
+}
+
+.five {
+    margin-top: 4rem;
+    background: url(./img/05.png) no-repeat;
+    background-position: center;
+}
+
+.cn {
+    padding-top: 7rem;
+}
+
+.cn h2 {
+    color: var(--h2-color);
+    font-size: 2rem;
+}
+
+.cn span,
+.cn p,
+.cn h5 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.cn h5::before {
+    content: '00';
+    height: 0.5rem;
+    width: 1rem;
+    background-color: #ff5249;
+    color: #ff5249;
+    border-radius: 70%;
+    position: relative;
+    left: -2%;
+}
+
+.dp h2 {
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.banner {
+    background: url('./img/Rectangle 5.png') no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin-top: 4rem;
+}
+
+.frm {
+    margin-top: 5rem;
+}
