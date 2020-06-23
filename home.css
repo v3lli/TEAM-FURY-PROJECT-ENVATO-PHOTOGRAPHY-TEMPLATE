@@ -204,13 +204,102 @@
     letter-spacing: 0.2rem;
 }
 
+
+/* BANNER */
+
 .banner {
     background: url('./img/Rectangle 5.png') no-repeat;
-    width: 10rem;
-    height: 8rem;
+    width: 15rem;
+    height: 10rem;
     margin-top: 4rem;
 }
 
+.dev-block {
+    width: 60%;
+    height: 4rem;
+    background-color: #f6f6f7;
+    padding-top: 1rem;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    left: 12rem;
+}
+
+.banner .dev-block a {
+    text-decoration: none;
+}
+
+.banner .dev-block .cont a {
+    color: #2c2c2c;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+
+.banner .dev-block .var a {
+    color: #e6dbdb;
+    border: 1px solid rgb(160, 98, 98);
+    padding: 0.5rem 0.5rem;
+    background-color: rgb(197, 51, 7);
+}
+
+
+/* GET IN TOUCH WITH US AND FORM */
+
 .frm {
     margin-top: 5rem;
+}
+
+.frm .formb h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.frm .formb h3 span {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.frm .formb {
+    margin-top: 2rem;
+}
+
+.frm .formb .phone p {
+    margin-left: 0.6rem;
+}
+
+.frm .formb .email .row .fa {
+    color: crimson;
+    background-color: crimson;
+}
+
+.frm .formb .email p {
+    margin-left: 0.6rem;
+}
+
+
+/*  FORM */
+
+.forma {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forma input {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.forma textarea {
+    resize: none;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.forma .area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
